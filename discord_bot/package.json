@@ -1,0 +1,27 @@
+{
+  "name": "discord_bot",
+  "version": "1.0.0",
+  "description": "A discord bot built in nodejs as a sideproject. \r Discover the world of javascript by entering a / command and the bot will answer.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmilSunden/discord_bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmilSunden/discord_bot/issues"
+  },
+  "homepage": "https://github.com/EmilSunden/discord_bot#readme",
+  "dependencies": {
+    "@discordjs/builders": "^1.4.0",
+    "@discordjs/rest": "^1.5.0",
+    "discord-api-types": "^0.37.33",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  }
+}
